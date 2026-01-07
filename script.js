@@ -17,15 +17,15 @@ async function search() {
       <p><strong>الاسم:</strong> ${student.student_name}</p>
       <div class="degree-boxes">
         <div class="degree-box">
-          <h3>مقدمة تطبيقات الحاسب</h3>
+          <h3>إدارة مستشفيات</h3>
           <p>${student.computer}</p>
         </div>
         <div class="degree-box">
-          <h3>مبادئ إدارة الاعمال</h3>
+          <h3>رياضيات</h3>
           <p>${student.biss}</p>
         </div>
         <div class="degree-box">
-          <h3>اللغة الإنجليزية</h3>
+          <h3>محاسبة</h3>
           <p>${student.english}</p>
         </div>
       </div>
@@ -34,5 +34,6 @@ async function search() {
     resultDiv.innerHTML = "❌ لا توجد نتيجة لرقم الهوية";
   }
 }
+
 
 
