@@ -1,0 +1,1210 @@
+[
+  {
+    "م": "1",
+    "student_name": "اثير عبدالله سعد الربيعه",
+    "national_id": "1103028187",
+    "computer": "100",
+    "biss": "96",
+    "english": "100"
+  },
+  {
+    "م": "2",
+    "student_name": "ازهار احمد محمد الحربي",
+    "national_id": "1101736591",
+    "computer": "100",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "3",
+    "student_name": "اسيل عبدالله الماس البلوشي",
+    "national_id": "1101219457",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "4",
+    "student_name": "الاء عبدالله احمد آل رضوان",
+    "national_id": "1109107555",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "5",
+    "student_name": "البندري عطيه محمد عسيري ",
+    "national_id": "1118596681",
+    "computer": "98",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "6",
+    "student_name": "اماني محمد ابراهيم دارسي",
+    "national_id": "1106183278",
+    "computer": "100",
+    "biss": "91",
+    "english": "100"
+  },
+  {
+    "م": "7",
+    "student_name": "أشواق سعود نملان البانقي",
+    "national_id": "1082143270",
+    "computer": "100",
+    "biss": "90",
+    "english": "86"
+  },
+  {
+    "م": "8",
+    "student_name": "أشواق علي ابراهيم دارسي",
+    "national_id": "1119025656",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "9",
+    "student_name": "أمينه شيبوب مرزوق الدوسري",
+    "national_id": "1116287903",
+    "computer": "98",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "10",
+    "student_name": "بدرية عبدالله عامر الشهري",
+    "national_id": "1005010911",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "11",
+    "student_name": "بشاير جهاد علي ال جعفر",
+    "national_id": "1122889643",
+    "computer": "98",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "12",
+    "student_name": "بنين سلمان عباس ال سليمان",
+    "national_id": "1110872148",
+    "computer": "100",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "13",
+    "student_name": "جمانه خليل علي الربيع",
+    "national_id": "1138648652",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "14",
+    "student_name": "جميل عبدالله عبيد الرمثي البيشي",
+    "national_id": "1126114279",
+    "computer": "100",
+    "biss": "95",
+    "english": "100"
+  },
+  {
+    "م": "15",
+    "student_name": "دلال علي عبده صميلي",
+    "national_id": "1126061223",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "16",
+    "student_name": "سمر سعود محمد العويد",
+    "national_id": "1115776120",
+    "computer": "100",
+    "biss": "95",
+    "english": "96"
+  },
+  {
+    "م": "17",
+    "student_name": "شهد عبدالعزيز سلمان الودعاني الدوسري",
+    "national_id": "1124657550",
+    "computer": "100",
+    "biss": "90",
+    "english": "100"
+  },
+  {
+    "م": "18",
+    "student_name": "مريم احمد حسين كعبي",
+    "national_id": "1136974852",
+    "computer": "100",
+    "biss": "87",
+    "english": "100"
+  },
+  {
+    "م": "19",
+    "student_name": "مريم عيسى حسن الدوسري",
+    "national_id": "1141447860",
+    "computer": "100",
+    "biss": "98",
+    "english": "98"
+  },
+  {
+    "م": "20",
+    "student_name": "هيام سالم مرزوق ال نصيب",
+    "national_id": "1132814391",
+    "computer": "94",
+    "biss": "98",
+    "english": "98"
+  },
+  {
+    "م": "21",
+    "student_name": "وجدان احمد علي سباعي",
+    "national_id": "1136000005",
+    "computer": "90",
+    "biss": "82",
+    "english": "98"
+  },
+  {
+    "م": "22",
+    "student_name": "وجود صالح علي ابو فور",
+    "national_id": "1140269737",
+    "computer": "100",
+    "biss": "98",
+    "english": "98"
+  },
+  {
+    "م": "23",
+    "student_name": "بنين ابراهيم عبدالله الزراع",
+    "national_id": "1127672390",
+    "computer": "96",
+    "biss": "88",
+    "english": "86"
+  },
+  {
+    "م": "24",
+    "student_name": "بنين عبدالله سلمان الخليفه",
+    "national_id": "1143175220",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "25",
+    "student_name": "تقديس محمد غالب الهاشم",
+    "national_id": "1139379398",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "26",
+    "student_name": "تهاني حسين على امان",
+    "national_id": "1131052332",
+    "computer": "96",
+    "biss": "90",
+    "english": "86"
+  },
+  {
+    "م": "27",
+    "student_name": "جمانه جعفر ابراهيم الصبي",
+    "national_id": "1094097704",
+    "computer": "98",
+    "biss": "98",
+    "english": "90"
+  },
+  {
+    "م": "28",
+    "student_name": "جواهر سعيد سالم ال مساعد",
+    "national_id": "1084965324",
+    "computer": "88",
+    "biss": "83",
+    "english": "86"
+  },
+  {
+    "م": "29",
+    "student_name": "حصه عبدالله عبدالعزيز الوشمي",
+    "national_id": "1133084606",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "30",
+    "student_name": "حنان يحيى حسن البيشي",
+    "national_id": "1139172991",
+    "computer": "90",
+    "biss": "67",
+    "english": "64"
+  },
+  {
+    "م": "31",
+    "student_name": "حنين جمعه علي الرويلي",
+    "national_id": "1096920291",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "32",
+    "student_name": "حوراء زكريا حسن ال غزوي ",
+    "national_id": "1108979806",
+    "computer": "100",
+    "biss": "97",
+    "english": "100"
+  },
+  {
+    "م": "33",
+    "student_name": "حوراء عدنان عبد المحسن الهاشم ",
+    "national_id": "1139270894",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "34",
+    "student_name": "خضراء احمد مرزوق اليامي ",
+    "national_id": "1132217751",
+    "computer": "98",
+    "biss": "98",
+    "english": "98"
+  },
+  {
+    "م": "35",
+    "student_name": "خلود جعفر محمد النواد",
+    "national_id": "1006602484",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "36",
+    "student_name": "خلود سعد ناصر الغامدي",
+    "national_id": "1089241648",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "37",
+    "student_name": "خلود عايش العنزي",
+    "national_id": "1138984107",
+    "computer": "98",
+    "biss": "77",
+    "english": "60"
+  },
+  {
+    "م": "38",
+    "student_name": "دالين احمد محمد ابو مرعي مناع",
+    "national_id": "1133526804",
+    "computer": "",
+    "biss": "0",
+    "english": "0"
+  },
+  {
+    "م": "39",
+    "student_name": "رحمه عادل موسي بوعبدي",
+    "national_id": "1111408975",
+    "computer": "98",
+    "biss": "98",
+    "english": "94"
+  },
+  {
+    "م": "40",
+    "student_name": "رفيف حمدان بخيت الجنيبي",
+    "national_id": "1132627553",
+    "computer": "98",
+    "biss": "94",
+    "english": "100"
+  },
+  {
+    "م": "41",
+    "student_name": "رنيم غابش محمد عوس",
+    "national_id": "1135250486",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "42",
+    "student_name": "رهام عزيز حمد العنزي",
+    "national_id": "1094593678",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "43",
+    "student_name": "روان يحي احمد نجمي",
+    "national_id": "1113375230",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "44",
+    "student_name": "ريناس حميد محمد القسامي العتيبي",
+    "national_id": "1136848205",
+    "computer": "100",
+    "biss": "94",
+    "english": "100"
+  },
+  {
+    "م": "45",
+    "student_name": "زينب عبدالله سالم المزرع",
+    "national_id": "1137288567",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "46",
+    "student_name": "ساره خالد محمد المحيسن ",
+    "national_id": "1141973527",
+    "computer": "100",
+    "biss": "90",
+    "english": "94"
+  },
+  {
+    "م": "47",
+    "student_name": "ساره محمد ابراهيم الراشدي",
+    "national_id": "1129479521",
+    "computer": "100",
+    "biss": "96",
+    "english": "98"
+  },
+  {
+    "م": "48",
+    "student_name": "هدي عبدالاله عبدالله الخيبري",
+    "national_id": "1133655959",
+    "computer": "100",
+    "biss": "94",
+    "english": "100"
+  },
+  {
+    "م": "49",
+    "student_name": "هدير عبدالله علي العاثم",
+    "national_id": "1118908092",
+    "computer": "100",
+    "biss": "91",
+    "english": "96"
+  },
+  {
+    "م": "50",
+    "student_name": "ابرار يوسف محمد الرهيش",
+    "national_id": "1104740061",
+    "computer": "100",
+    "biss": "96",
+    "english": "100"
+  },
+  {
+    "م": "51",
+    "student_name": "اروى مجحود علي الزهراني",
+    "national_id": "1128254727",
+    "computer": "",
+    "biss": "0",
+    "english": "0"
+  },
+  {
+    "م": "52",
+    "student_name": "ايمان حامد عبدالله الشوحطي المقعدي",
+    "national_id": "1049369885",
+    "computer": "100",
+    "biss": "100",
+    "english": "98"
+  },
+  {
+    "م": "53",
+    "student_name": "دلال عبدالمحسن مبارك الجزيري",
+    "national_id": "1004849285",
+    "computer": "100",
+    "biss": "100",
+    "english": "96"
+  },
+  {
+    "م": "54",
+    "student_name": "رقيه فهد محمد المولد",
+    "national_id": "1064957481",
+    "computer": "98",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "55",
+    "student_name": "رهف علي راشد الدوسري",
+    "national_id": "1140424217",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "56",
+    "student_name": "ريانه جاسم سعد العميري",
+    "national_id": "1113187643",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "57",
+    "student_name": "ريتاج يحي موسى بقاشي",
+    "national_id": "1137049209",
+    "computer": "",
+    "biss": "",
+    "english": "0"
+  },
+  {
+    "م": "58",
+    "student_name": "زهراء عبدالكريم سعيد المطلق ",
+    "national_id": "1063375685",
+    "computer": "100",
+    "biss": "100",
+    "english": "94"
+  },
+  {
+    "م": "59",
+    "student_name": "زهراء عقيل حبيب البطران",
+    "national_id": "1091922342",
+    "computer": "98",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "60",
+    "student_name": "زهراء محمد حسن آل داؤود",
+    "national_id": "1136640149",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "61",
+    "student_name": "زهره ابراهيم محمد هزازي",
+    "national_id": "1007641093",
+    "computer": "",
+    "biss": "0",
+    "english": "0"
+  },
+  {
+    "م": "62",
+    "student_name": "زهراء عبد الله احمد الباشا",
+    "national_id": "1062921141",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "63",
+    "student_name": "زينب عبدالله احمد الباشا",
+    "national_id": "1038287890",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "64",
+    "student_name": "سكينه عبدالهادي عبدالله اعفيريت",
+    "national_id": "1066817352",
+    "computer": "100",
+    "biss": "100",
+    "english": "98"
+  },
+  {
+    "م": "65",
+    "student_name": "سميحه محمد علي الذروي",
+    "national_id": "1094261102",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "66",
+    "student_name": "عائشة برهم إبراهيم الذيباني",
+    "national_id": "1079540231",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "67",
+    "student_name": "مريم علي إبراهيم الجندل",
+    "national_id": "1104355340",
+    "computer": "100",
+    "biss": "100",
+    "english": "98"
+  },
+  {
+    "م": "68",
+    "student_name": "معياد علي عايش اليوسف",
+    "national_id": "1080443185",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "69",
+    "student_name": "نجلاء خالد حسين الصقر",
+    "national_id": "1085059390",
+    "computer": "100",
+    "biss": "95",
+    "english": "100"
+  },
+  {
+    "م": "70",
+    "student_name": "هدب جبير سعيد العازمي",
+    "national_id": "1097142325",
+    "computer": "96",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "71",
+    "student_name": "هناء علي عتيق الخيبري",
+    "national_id": "1056322876",
+    "computer": "100",
+    "biss": "96",
+    "english": "98"
+  },
+  {
+    "م": "72",
+    "student_name": "وصال منصور طاهر سلمان",
+    "national_id": "1077125795",
+    "computer": "100",
+    "biss": "88",
+    "english": "94"
+  },
+  {
+    "م": "73",
+    "student_name": "وعد وحيد احمد خبراني",
+    "national_id": "1109227056",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "74",
+    "student_name": "آيات جمعه عبدالعزيز الجمعه",
+    "national_id": "1090029248",
+    "computer": "100",
+    "biss": "94",
+    "english": "96"
+  },
+  {
+    "م": "75",
+    "student_name": "رغد داني عبدالله غروي",
+    "national_id": "1133636066",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "76",
+    "student_name": "ريتاج صالح عبدالرحمن السعد",
+    "national_id": "1139897902",
+    "computer": "100",
+    "biss": "92",
+    "english": "96"
+  },
+  {
+    "م": "77",
+    "student_name": "زهراء زهير حسين ال ناصر",
+    "national_id": "1138832884",
+    "computer": "100",
+    "biss": "96",
+    "english": "100"
+  },
+  {
+    "م": "78",
+    "student_name": "زينب عبدرب الحسين عبدالله المشهد",
+    "national_id": "1097303893",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "79",
+    "student_name": "زينب علي سلمان امشيمع",
+    "national_id": "1136988878",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "80",
+    "student_name": "سارة إبراهيم ساري الصقور",
+    "national_id": "1110008263",
+    "computer": "100",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "81",
+    "student_name": "ساره سعد حامد الغامدي",
+    "national_id": "1143680476",
+    "computer": "94",
+    "biss": "85",
+    "english": "90"
+  },
+  {
+    "م": "82",
+    "student_name": "ساره عبدالله احمد ال ظافر الغامدي ",
+    "national_id": "1132668201",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "83",
+    "student_name": "شريفه مبارك احمد العطوي",
+    "national_id": "1068607660",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "84",
+    "student_name": "شمعه حيدر عبده دهمش",
+    "national_id": "1216461176",
+    "computer": "97",
+    "biss": "74",
+    "english": "100"
+  },
+  {
+    "م": "85",
+    "student_name": "شهد أبو طالب مسواك قيسي",
+    "national_id": "1136281118",
+    "computer": "100",
+    "biss": "100",
+    "english": "98"
+  },
+  {
+    "م": "86",
+    "student_name": "شيخه جبريل علي موسى",
+    "national_id": "1117391613",
+    "computer": "100",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "87",
+    "student_name": "صالحه يحيى حسن البيشي",
+    "national_id": "1122313487",
+    "computer": "",
+    "biss": "0",
+    "english": "68"
+  },
+  {
+    "م": "88",
+    "student_name": "عريب عيد الهلال  ",
+    "national_id": "2253781740",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "89",
+    "student_name": "غدير جعفر محمد العلوان",
+    "national_id": "1090028968",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "90",
+    "student_name": "غدير عبدالهادي مهدي آل قاسم",
+    "national_id": "1090069640",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "91",
+    "student_name": "كنوز احمد عايش العبدالله",
+    "national_id": "1134748969",
+    "computer": "100",
+    "biss": "93",
+    "english": "98"
+  },
+  {
+    "م": "92",
+    "student_name": "كوثر علوي هاشم آل هاشم",
+    "national_id": "1138099906",
+    "computer": "100",
+    "biss": "96",
+    "english": "94"
+  },
+  {
+    "م": "93",
+    "student_name": "مرام احمد حسن الميلاد",
+    "national_id": "1106698218",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "94",
+    "student_name": "مروه ناصر محمد الزريقي",
+    "national_id": "1112515901",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "95",
+    "student_name": "مريم ابراهيم علي التريكي",
+    "national_id": "1134329851",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "96",
+    "student_name": "ملاك محمد سلوم المنتشرى",
+    "national_id": "1090304948",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "97",
+    "student_name": "نوال متعب سعيد العتيبي ",
+    "national_id": "1072689175",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "98",
+    "student_name": "نوف مبارك حمد المنصور",
+    "national_id": "1085100673",
+    "computer": "100",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "99",
+    "student_name": "وديعه حسين حسن الفندي",
+    "national_id": "1033517309",
+    "computer": "100",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "100",
+    "student_name": "يرام جبران سالم شامي ",
+    "national_id": "1110390364",
+    "computer": "92",
+    "biss": "76",
+    "english": "86"
+  },
+  {
+    "م": "101",
+    "student_name": "اثير محمد مطلق القحطاني",
+    "national_id": "1136101340",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "102",
+    "student_name": "احلام محمد احمد ارجي",
+    "national_id": "2197658335",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "103",
+    "student_name": "الين مجدوع محمد الشهري",
+    "national_id": "1141144152",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "104",
+    "student_name": "أقبال حمد جاسم العميري",
+    "national_id": "1125362945",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "105",
+    "student_name": "بتلاء راشد مسلم الدوسري",
+    "national_id": "1095082127",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "106",
+    "student_name": "بشائر صلاح عيسى ال خلف",
+    "national_id": "1092415601",
+    "computer": "100",
+    "biss": "100",
+    "english": "98"
+  },
+  {
+    "م": "107",
+    "student_name": "جود سهيل عبدالله ال نتيف ",
+    "national_id": "1139565939",
+    "computer": "100",
+    "biss": "96",
+    "english": "100"
+  },
+  {
+    "م": "108",
+    "student_name": "دبيه محمد مطلق القحطاني",
+    "national_id": "1127414280",
+    "computer": "96",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "109",
+    "student_name": "زهراء خضر احمد ال عيسى",
+    "national_id": "1124665967",
+    "computer": "92",
+    "biss": "98",
+    "english": "92"
+  },
+  {
+    "م": "110",
+    "student_name": "زهراء مكي احمد ال رمضان",
+    "national_id": "1071016529",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "111",
+    "student_name": "زينب محمد عبدالوهاب الشويخات",
+    "national_id": "1139467672",
+    "computer": "96",
+    "biss": "88",
+    "english": "98"
+  },
+  {
+    "م": "112",
+    "student_name": "شادية خلف مشيط الشدادي",
+    "national_id": "1076587086",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "113",
+    "student_name": "شيخه طلال عبدالله الدوسري",
+    "national_id": "1100938404",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "114",
+    "student_name": "صبا محمد علي المحسن",
+    "national_id": "1110097027",
+    "computer": "100",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "115",
+    "student_name": "ضحي سالم علي بوسهيل",
+    "national_id": "1119099479",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "116",
+    "student_name": "غدير فاضل احمد لمعبر",
+    "national_id": "1132509090",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "117",
+    "student_name": "غيوض شاهر نوار الشيباني العتيبي",
+    "national_id": "1155191115",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "118",
+    "student_name": "فاطمه طلال عبدالله الدوسري",
+    "national_id": "1075750420",
+    "computer": "98",
+    "biss": "100",
+    "english": "96"
+  },
+  {
+    "م": "119",
+    "student_name": "فاطمه علي احمد الحداد ",
+    "national_id": "1103794697",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "120",
+    "student_name": "كوثر ماجد سلمان صالح",
+    "national_id": "1137346969",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "121",
+    "student_name": "ليلي سلمان حسن ال داؤود",
+    "national_id": "1073720276",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "122",
+    "student_name": "مريم عبدالله غلوم الإيراني",
+    "national_id": "1076694981",
+    "computer": "96",
+    "biss": "92",
+    "english": "100"
+  },
+  {
+    "م": "123",
+    "student_name": "مريم علي معتوق ال دعبل",
+    "national_id": "1115467951",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "124",
+    "student_name": "نائلة مكي سلمان ربح",
+    "national_id": "1128149216",
+    "computer": "98",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "125",
+    "student_name": "نور محمد باقر المطاوعه",
+    "national_id": "1106391939",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "126",
+    "student_name": "نور منصور احمد آل احمد",
+    "national_id": "1125608867",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "127",
+    "student_name": "نورا موسي علي عمر",
+    "national_id": "2273507810",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "128",
+    "student_name": "نورة احمد معشي حريصي",
+    "national_id": "1082839182",
+    "computer": "98",
+    "biss": "82",
+    "english": "100"
+  },
+  {
+    "م": "129",
+    "student_name": "نوف بندر إبراهيم العميري",
+    "national_id": "1141674679",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "130",
+    "student_name": "امنه شرعي جابر شيعان",
+    "national_id": "1105926263",
+    "computer": "98",
+    "biss": "96",
+    "english": "100"
+  },
+  {
+    "م": "131",
+    "student_name": "جنى يحي ابراهيم شريفي",
+    "national_id": "1149335901",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "132",
+    "student_name": "خاتمه محمد عبدالرحمن الجابري",
+    "national_id": "1106353707",
+    "computer": "99",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "133",
+    "student_name": "رميصاء سليمان محمد",
+    "national_id": "2238612440",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "134",
+    "student_name": "رهف محمد علي حامظي",
+    "national_id": "1127516316",
+    "computer": "96",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "135",
+    "student_name": "زهرة جمعة سالم الراجح",
+    "national_id": "1094462486",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "136",
+    "student_name": "زينب ابراهيم احمد العبدرب الرسول",
+    "national_id": "1136412432",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "137",
+    "student_name": "سارة فؤاد احمد الصومالي",
+    "national_id": "1119879524",
+    "computer": "100",
+    "biss": "98",
+    "english": "100"
+  },
+  {
+    "م": "138",
+    "student_name": "سعيده يحي عبدالله المجرشي",
+    "national_id": "1216354066",
+    "computer": "98",
+    "biss": "100",
+    "english": "98"
+  },
+  {
+    "م": "139",
+    "student_name": "سلوى محمد حسن لخمي",
+    "national_id": "1110882253",
+    "computer": "94",
+    "biss": "100",
+    "english": "96"
+  },
+  {
+    "م": "140",
+    "student_name": "فاطمه حسين جواد آل زواد",
+    "national_id": "1076718772",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "141",
+    "student_name": "مريم محمد جواد بوشقرة",
+    "national_id": "1085744637",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "142",
+    "student_name": "نوره احمد مسواك قيسي",
+    "national_id": "1122298365",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "143",
+    "student_name": "نوف سعد علي آل نصيب",
+    "national_id": "1126777596",
+    "computer": "89",
+    "biss": "100",
+    "english": "96"
+  },
+  {
+    "م": "144",
+    "student_name": "نوف عبده جابر شيعان",
+    "national_id": "1126629904",
+    "computer": "94",
+    "biss": "94",
+    "english": "100"
+  },
+  {
+    "م": "145",
+    "student_name": "هبه رمزي ناصر ال داوود",
+    "national_id": "1118249141",
+    "computer": "100",
+    "biss": "100",
+    "english": "98"
+  },
+  {
+    "م": "146",
+    "student_name": "هبه طلال مبارك الحربي",
+    "national_id": "1050036225",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  },
+  {
+    "م": "147",
+    "student_name": "هدي عطيه محمد عسيري",
+    "national_id": "1131513366",
+    "computer": "98",
+    "biss": "94",
+    "english": "100"
+  },
+  {
+    "م": "148",
+    "student_name": "هناء يحي علي جعفري",
+    "national_id": "1109589588",
+    "computer": "78",
+    "biss": "90",
+    "english": "100"
+  },
+  {
+    "م": "149",
+    "student_name": "هيا علي سعيد المنبهي",
+    "national_id": "1102696828",
+    "computer": "92",
+    "biss": "100",
+    "english": "90"
+  },
+  {
+    "م": "150",
+    "student_name": "وجدان فائز سعيد المنبهي",
+    "national_id": "1095868855",
+    "computer": "98",
+    "biss": "96",
+    "english": "100"
+  },
+  {
+    "م": "151",
+    "student_name": "وداد عبد رب الرسول حسين الصقر",
+    "national_id": "1053270516",
+    "computer": "100",
+    "biss": "100",
+    "english": "100"
+  }
+]
