@@ -244,7 +244,7 @@ def login_user(username: str, password: str):
 # DATA ENCRYPTION
 # -----------------------------
 def encrypt_data(data: str) -> bytes:
-    encrypted = cipher.encrypt(data.encode())
+    encrypted = cipher.encrypt(data.encode)
     logging.info("Data encrypted")
     return encrypted
 
