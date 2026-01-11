@@ -1,0 +1,278 @@
+# CYBER SECURITY TOOLKIT (EDUCATIONAL)
+# ==============================
+
+import re
+import hashlib
+import socket
+import random
+import string
+from cryptography.fernet import Fernet
+
+# ------------------------------
+# 1) Password Strength Checker
+# ------------------------------
+def check_password_strength(password):
+    if len(password) < 8:
+        return "Weak: too short"
+    if not re.search("[A-Z]", password):
+        return "Weak: add uppercase"
+    if not re.search("[a-z]", password):
+        return "Weak: add lowercase"
+    if not re.search("[0-9]", password):
+        return "Weak: add numbers"
+    if not re.search("[!@#$%^&*]", password):
+        return "Weak: add special chars"
+    return "Strong password"
+
+
+# ------------------------------
+# 2) SHA-256 Hashing
+# ------------------------------
+def sha256_hash(text):
+    return hashlib.sha256(text.encode()).hexdigest()
+
+
+# ------------------------------
+# 3) Simple Port Scanner (Local)
+# ------------------------------
+def port_scanner(target, ports):
+    open_ports = []
+    for port in ports:
+        s = socket.socket()
+        s.settimeout(1)
+        result = s.connect_ex((target, port))
+        if result == 0:
+            open_ports.append(port)
+        s.close()
+    return open_ports
+
+
+# ------------------------------
+# 4) Log Analysis (Failed Logins)
+# ------------------------------
+def count_failed_logins(log_file):
+    failed = 0
+    try:
+        with open(log_file, "r") as f:
+            for line in f:
+                if "Failed password" in line:
+                    failed += 1
+    except FileNotFoundError:
+        return "Log file not found"
+    return failed
+
+
+# ------------------------------
+# 5) Encryption & Decryption (Fernet)
+# ------------------------------
+def encrypt_decrypt(message):
+    key = Fernet.generate_key()
+    cipher = Fernet(key)
+    encrypted = cipher.encrypt(message.encode())
+    decrypted = cipher.decrypt(encrypted).decode()
+    return encrypted, decrypted
+
+
+# ------------------------------
+# 6) SQL Injection Detection (Basic)
+# ------------------------------
+def detect_sql_injection(user_input):
+    dangerous = ["'", "--", " OR ", " AND ", "="]
+    for d in dangerous:
+        if d.upper() in user_input.upper():
+            return "⚠️ Possible SQL Injection"
+    return "Safe input"
+
+
+# ------------------------------
+# 7) Rate Limiting (Login Protection)
+# ------------------------------
+attempts = {}
+def rate_limit(ip):
+    attempts[ip] = attempts.get(ip, 0) + 1
+    if attempts[ip] > 5:
+        return "Blocked"
+    return "Allowed"
+
+
+# ------------------------------
+# 8) Strong Password Generator
+# ------------------------------
+def generate_password(length=12):
+    chars = string.ascii_letters + string.digits + "!@#$%"
+    return ''.join(random.choice(chars) for _ in range(length))
+
+
+# ------------------------------
+# 9) File Integrity Check
+# ------------------------------
+def file_hash(filename):
+    h = hashlib.sha256()
+    with open(filename, "rb") as f:
+        h.update(f.read())
+    return h.hexdigest()
+
+
+# ------------------------------
+# 10) RUN TESTS
+# ------------------------------
+if _name_ == "_main_":
+    print("Password strength:", check_password_strength("Test@1234"))
+    print("SHA256:", sha256_hash("cybersecurity"))
+    print("Open ports:", port_scanner("127.0.0.1", [21, 22, 80, 443]))
+    print("SQL Test:", detect_sql_injection("' OR 1=1 --"))
+    print("Rate limit:", rate_limit("192.168.1.1"))
+    print("Generated password:", generate_password())
+
+    encrypted, decrypted = encrypt_decrypt("Cyber Security")
+    print("Encrypted:", encrypted)
+    print("Decrypted:", decrypted)
+    
+import bcrypt
+import base64
+import os
+import time
+import logging
+from cryptography.fernet import Fernet
+from collections import defaultdict
+
+# -----------------------------
+# SECURE LOGGING CONFIGURATION
+# -----------------------------
+logging.basicConfig(
+    filename="security.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+# -----------------------------
+# ENCRYPTION KEY MANAGEMENT
+# -----------------------------
+def generate_key():
+    key = Fernet.generate_key()
+    with open("secret.key", "wb") as key_file:
+        key_file.write(key)
+
+def load_key():
+    return open("secret.key", "rb").read()
+
+if not os.path.exists("secret.key"):
+    generate_key()
+
+KEY = load_key()
+cipher = Fernet(KEY)
+
+# -----------------------------
+# USER DATABASE (SIMULATED)
+# -----------------------------
+users_db = {}
+
+# Track failed login attempts
+failed_attempts = defaultdict(int)
+LOCKOUT_TIME = 60  # seconds
+locked_users = {}
+
+# -----------------------------
+# PASSWORD SECURITY
+# -----------------------------
+def hash_password(password: str) -> bytes:
+    salt = bcrypt.gensalt()
+    return bcrypt.hashpw(password.encode(), salt)
+
+def verify_password(password: str, hashed: bytes) -> bool:
+    return bcrypt.checkpw(password.encode(), hashed)
+
+# -----------------------------
+# INPUT VALIDATION
+# -----------------------------
+def validate_input(username: str, password: str):
+    if len(username) < 4:
+        raise ValueError("Username must be at least 4 characters long.")
+    if len(password) < 8:
+        raise ValueError("Password must be at least 8 characters long.")
+
+# -----------------------------
+# USER REGISTRATION
+# -----------------------------
+def register_user(username: str, password: str):
+    validate_input(username, password)
+
+    if username in users_db:
+        raise ValueError("User already exists")
+
+    hashed_pw = hash_password(password)
+    users_db[username] = hashed_pw
+    logging.info(f"User registered: {username}")
+    print("User registered successfully.")
+
+# -----------------------------
+# USER LOGIN WITH SECURITY
+# -----------------------------
+def login_user(username: str, password: str):
+    current_time = time.time()
+
+    # Check if user is locked
+    if username in locked_users:
+        if current_time - locked_users[username] < LOCKOUT_TIME:
+            logging.warning(f"Locked account access attempt: {username}")
+            raise PermissionError("Account temporarily locked.")
+        else:
+            del locked_users[username]
+            failed_attempts[username] = 0
+
+    if username not in users_db:
+        logging.warning(f"Login attempt with invalid user: {username}")
+        raise ValueError("Invalid username or password")
+
+    if verify_password(password, users_db[username]):
+        failed_attempts[username] = 0
+        logging.info(f"Successful login: {username}")
+        print("Login successful.")
+        return True
+    else:
+        failed_attempts[username] += 1
+        logging.warning(f"Failed login attempt {failed_attempts[username]} for {username}")
+
+        if failed_attempts[username] >= 3:
+            locked_users[username] = current_time
+            logging.error(f"Account locked due to brute-force: {username}")
+            raise PermissionError("Account locked due to multiple failed attempts.")
+
+        raise ValueError("Invalid username or password")
+
+# -----------------------------
+# DATA ENCRYPTION
+# -----------------------------
+def encrypt_data(data: str) -> bytes:
+    encrypted = cipher.encrypt(data.encode())
+    logging.info("Data encrypted")
+    return encrypted
+
+def decrypt_data(token: bytes) -> str:
+    decrypted = cipher.decrypt(token).decode()
+    logging.info("Data decrypted")
+    return decrypted
+
+# -----------------------------
+# DEMO EXECUTION
+# -----------------------------
+if __name__ == "__main__":
+    try:
+        print("\n--- USER REGISTRATION ---")
+        register_user("admin", "StrongPass123")
+
+        print("\n--- LOGIN ATTEMPTS ---")
+        login_user("admin", "WrongPass")
+        login_user("admin", "WrongPass")
+        login_user("admin", "StrongPass123")
+
+        print("\n--- ENCRYPTION DEMO ---")
+        secret_message = "Top Secret Data"
+        encrypted = encrypt_data(secret_message)
+        print("Encrypted:", encrypted)
+
+        decrypted = decrypt_data(encrypted)
+        print("Decrypted:", decrypted)
+
+    except Exception as e:
+        print("Security Alert:", e)
